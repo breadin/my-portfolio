@@ -1,15 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./portfolio-custom/.vitepress/theme/**/*.{js,ts,jsx,tsx,vue}",
-    "./portfolio-custom/**/*.md",
+    './docs/**/*.vue',
+    './docs/**/*.md',
+    './docs/**/*.ts',
+    './docs/**/*.js',
+    './docs/.vitepress/**/*',
+    './src/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        orange: {
+          400: '#ef7234'
+        }
+      }
+    }
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-
-  ],
-}
-
+  plugins: []
+};
