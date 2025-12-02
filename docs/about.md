@@ -6,7 +6,6 @@ Here is the final version formatted cleanly in **Markdown**:
 
 ---
 
-
 # Portfolio Workshop
 
 **By:** Mahmoud Tamaa  
